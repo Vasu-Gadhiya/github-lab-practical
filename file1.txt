@@ -1,0 +1,12 @@
+GitHub is a cloud based platform that uses Git, a powerful version control system, to store, manage, track, and collaborate on code project.
+it provides a web interface and tools for developers to wrok together effectively
+
+Core Concepts :
+1) Repository : The fundamental building block, a repo is essentially a project folder where all project files, history, and related items are stored. It can be public or private.
+2) Commit : A "snapshot" of your project at a specific point in time. Each commit has an associated message describing the changes made, creating a history of the project.
+3) Branch : A parallel version of the repository where you can experiment and make changes without affecting the main or stable version (usually called the main branch). This is crucial for collaboration.
+4) Pull Request : The core of collaboration on GitHub. When you are ready to merge changes from your branch into another (like main), you open a pull request to propose your changes, allowing collaborators to review and discuss them before they are merged.
+5) Merge : The process of combining changes from one branch into another.
+6) Clone : The process of making a local copy of a remote repository on your computer.
+7) Push : The action of sending your local commits to the remote repository on GitHub.
+8) Pull : The action of fetching and downloading the latest changes from the remote repository to your local machine. 
