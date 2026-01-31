@@ -1,0 +1,8 @@
+GitHub branching is a core feature that allows developers to isolate their work (features, bug fixes, or experiments) from the main codebase without disruption. This isolation is key to collaborative, efficient development, and changes are integrated back into the main project via a process called merging, often after a review process called a pull request. 
+Key Concepts :
+1) Main Branch: By convention, this is the primary, stable branch of the project (historically called master). It should always contain deployable, production-ready code.
+2) Feature Branches: Developers create these branches from the main branch to work on new tasks. They are temporary, focused on a single purpose (e.g., feature/user-login), and allow changes to be made without affecting the stable codebase.
+3) Commits: As work progresses on a branch, changes are saved as commits, which are like snapshots of the project at a specific time. Each commit should have a descriptive message.
+4) Pull Requests (PRs): When work on a feature branch is complete, a developer opens a pull request. This is a formal way to propose changes and request that others review the code before it is merged into the main branch.
+5) Merging: After a review and approval, the changes from the feature branch are merged into the main branch, integrating the new code into the main project history.
+6) Lightweight: Unlike older version control systems, Git branches are incredibly lightweight, essentially just pointers to a specific commit. This makes creating and switching between branches fast and encourages their frequent use. 
